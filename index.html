@@ -19,13 +19,13 @@
       color: #2b2525;
     }
     header {
-      background: linear-gradient(135deg, #1e3c72, #2a5298);
+      background: linear-gradient(135deg, #0a0a0a, #070707);
       color: white;
       text-align: center;
       padding: 3rem 1rem 5rem;
       position: relative;
     }
-    .profile-picture {
+   .profile-picture {
   width: 125px;
   height: 125px;
   border-radius: 50%;
@@ -33,13 +33,13 @@
   border: 4px solid #fff;
   position: relative;
   margin-top: -80px;
-  margin-bottom: 1rem;
+  margin-bottom: 1rem
 }
-    .tabs {
+    tabs {
       display: flex;
       flex-wrap: wrap;
       justify-content: center;
-      background: white;
+      background: rgb(69, 126, 128);
       box-shadow: 0 2px 4px rgba(0,0,0,0.1);
     }
     .tabs button {
@@ -51,14 +51,14 @@
       cursor: pointer;
       font-size: 16px;
       font-weight: 500;
-      color: #2a5298;
+      color: #6b0463;
       transition: all 0.3s ease;
     }
-    .tabs button:hover,
+   .tabs button:hover,
     .tabs button.active {
-      background: #135ee0;
-      color: #fff;
-      border-color: #1752b9;
+      background: #374e75;
+      color: #c5b310;
+      border-color: #84878d;
     }
     section {
       max-width: 900px;
@@ -78,8 +78,8 @@
       opacity: 1;
       transform: translateY(0);
     }
-    h2 {
-      color: #2a5298;
+   h2 {
+      color: #6b0463;
       margin-bottom: 1rem;
     }
     ul li {
@@ -94,8 +94,8 @@
       text-decoration: none;
       margin-top: 1rem;
     }
-    .download-button:hover {
-      background: #1e3c72;
+     .download-button:hover {
+      background: #0704ec;
     }
     footer {
       text-align: center;
@@ -113,7 +113,7 @@
       justify-content: center;
       align-items: center;
     }
-    .modal-content {
+   .modal-content {
       background: white;
       padding: 2rem;
       border-radius: 10px;
@@ -137,7 +137,7 @@
       border-radius: 6px;
       cursor: pointer;
     }
-    .modal-content .error {
+   .modal-content .error {
       color: red;
       font-size: 14px;
       margin-top: 10px;
@@ -168,17 +168,17 @@
       background-color: #1e1e1e;
       color: #f5f5f5;
     }
-    .dark-mode header {
-      background: linear-gradient(135deg, #000000, #2a2a2a);
+   .dark-mode header {
+      background: linear-gradient(135deg, #f0f0f0, #f1f1f1);
     }
     .dark-mode .tabs button {
-      background-color: #2a2a2a;
+      background-color: #fff4f4;
       color: #f5f5f5;
-      border-color: #555;
+      border-color: #fcf4f4;
     }
     .dark-mode .tabs button.active,
     .dark-mode .tabs button:hover {
-      background-color: #444;
+      background-color: #faf2f2;
       color: #fff;
     }
     .dark-toggle {
@@ -191,7 +191,32 @@
       font-weight: bold;
       cursor: pointer;
       border-radius: 5px;
-      color: #2a5298;
+      color: #dee0e4;
+    }
+    table {
+      width: 80%;
+      border-collapse: collapse;
+      margin: 0 auto;
+      background-color: #fff;
+      box-shadow: 0 0 10px rgba(0,0,0,0.1);
+    }
+    th, td {
+      border: 1px solid #ddd;
+      padding: 12px 15px;
+      text-align: left;
+    }
+    th {
+      background-color: #4CAF50;
+      color: white;
+    }
+    tr:hover {
+      background-color: #f1f1f1;
+    }
+    caption {
+      caption-side: top;
+      margin-bottom: 10px;
+      font-size: 1.2em;
+      font-weight: bold;
     }
   </style>
 </head>
@@ -222,13 +247,49 @@
 
 <section id="about" class="active">
   <h2>About Me</h2>
-  <p>Myself<b> Cybersecurity & Digital Markting expert</b> & technology enthusiast with over 7 years of experience. I help organizations build secure systems and educate others about online safety. I’m passionate about ethical hacking, investigation, and emerging technologies.</p>
-</section>
+  <p>Myself, Meenambiga M R<b> Cybersecurity & Digital Markting expert</b> With a diverse professional background, I bring experience from the IT industry, the textile sector, and the investigative field. Each chapter of my career has shaped my skills, adaptability, and understanding of complex systems and people.</b> Currently, I serve as an Assistant Professor, where I am passionate about sharing knowledge, fostering critical thinking, and guiding the next generation of professionals. My journey reflects a commitment to continuous learning and a deep appreciation for multidisciplinary growth.</p>
 
+  <p style="background-color: hsl(64, 96%, 82%); color: hsl(138, 100%,
+24%); padding: 10px; border-radius: 5px;">
+    <strong>Degree:</strong> Ph.D(Pursuing)<br>
+    <strong>Institution:</strong> Paark's College, Tirupur<br>
+    <strong>University:</strong> Bharathiar University<br>
+    <strong>Year:</strong> 2022<br>
+   </p>
+
+  <p style="background-color: #e0f7fa; color: hsl(295, 65%, 24%);
+padding: 10px; border-radius: 5px;">
+  <strong>Degree:</strong> M.Phil<br>
+  <strong>Institution:</strong> Periyar University<br>
+  <strong>University:</strong> Periyar University<br>
+  <strong>Year:</strong> 2008<br>
+  <strong>Class:</strong> First
+</p>
+
+<p style="background-color: #f1f8e9; color: #e65100; padding: 10px;
+border-radius: 5px;">
+  <strong>Degree:</strong> MCA<br>
+  <strong>Institution:</strong> P.K.R. Arts College, Gobi<br>
+  <strong>University:</strong> Bharathiar University<br>
+  <strong>Year:</strong> 2004<br>
+  <strong>Class:</strong> First
+</p>
+
+<p style="background-color: #fff3e0; color: #3f0abb; padding: 10px;
+border-radius: 5px;">
+  <strong>Degree:</strong> B.Sc. Computer Science<br>
+  <strong>Institution:</strong> Govindammal Aditanar College, Tiruchendur<br>
+  <strong>University:</strong> Manonmaniam Sundaranar University<br>
+  <strong>Year:</strong> 2001<br>
+  <strong>Class:</strong> First
+</p>
+  
+</section>
 <section id="education">
   <h2>ACADEMIC PURSUITS</h2>
   <p>Anna University – B.E. in COMPUTER SCIENCE ENGINEERING</p>
 </section>
+  
 
 <section id="skills">
   <h2>Skills</h2>
@@ -280,27 +341,16 @@
       </a>
       <p>Cybersecurity Essentials – Cisco</p>
     </div>
-    <div style="text-align: center;">
-      <a href="https://example.com/certificate2" target="_blank">
-        <img src="certificate2.jpg" alt="Blockchain Fundamentals – IBM" style="max-width: 200px; border-radius: 8px; box-shadow: 0 2px 10px rgba(0,0,0,0.1);">
-      </a>
-      <p>Blockchain Fundamentals – IBM</p>
-    </div>
-    <div style="text-align: center;">
-      <a href="https://example.com/certificate3" target="_blank">
-        <img src="certificate3.jpg" alt="Machine Learning with Python – Coursera" style="max-width: 200px; border-radius: 8px; box-shadow: 0 2px 10px rgba(0,0,0,0.1);">
-      </a>
-      <p>Machine Learning with Python – Coursera</p>
-    </div>
   </div>
 </section>
 
 <section id="experience">
+  <chatbar></chatbar>
   <h2>Experience</h2>
   <ul>
-    <li><b>Java Developer</b> – TCS(2017–2023)<br>Monitored, detected, and mitigated network threats using SIEM tools.</li>
-    <li><b>Human Resourse Manager</b> – Warsaw International(2018–2019)<br>Performed ethical hacking assessments for startups and provided mitigation reports.</li>
-    <li><b>Investigator – Spartan detective Agency</b> (2022-2023)<br>Worked on automation scripts and cloud deployment prototypes.</li>
+    <li><b>Java Developer</b> – TCS(2017–2023)<br>Developed and maintained scalable Java applications with a focus on backend logic, API integration, and performance optimization in real-world projects.</li>
+    <li><b>Human Resourse Manager</b> – Warsaw International(2018–2019)<br>Managed end-to-end HR processes including recruitment, onboarding, employee engagement, and compliance to support organizational growth..</li>
+    <li><b>Investigator – Spartan detective Agency</b> (2022-2023)<br>Conducted thorough investigations by gathering evidence, interviewing witnesses, and analyzing data to support accurate case resolutions.</li>
   </ul>
 </section>
 
